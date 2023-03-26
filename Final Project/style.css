@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+.logo img {
+    width: 64px;
+    height: 64px;
+    padding-left: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    color: rgb(23, 160, 194);
+    gap: 15px ;
+}
+
+header {
+
+    background-color: rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-items: end;
+
+}
+
+.banner {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/ant-man-and-the-wasp-quantumania.webp');
+    background-position: center;
+    background-size: cover;
+    margin-top: -100px;
+    color: white;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.btn1 {
+    font-weight: 700;
+    letter-spacing: .2rem;
+    background: none;
+    color: whitesmoke;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 4rem;
+    border: 0.1rem solid whitesmoke;
+}
+
+.banner h1 {
+    font-size: 60px;
+}
+
+.html {
+    background-color: antiquewhite;
+}
+
+#trailer {
+  padding: 15px;
+  display: grid;
+  gap: 15px;
+}
+
+.link {
+  width: 450px;
+}
+
+.video {
+  height: 275px;
+  border: 2px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+}
+
+.trailer-description {
+    display: none;
+    
+}
+
+.genre {
+  text-align: center;
+}
+
+.genre a {
+  background-color: cadetblue;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.movie-info p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .btn2 {
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .btn2:nth-child(2) {
+    background-color: aqua;
+  }
+  
+  .btn2-group {
+    display: grid;
+    gap: 5px;
+  
+  }
+  
+  .movie {
+    width: 250px;
+    height: 325px;
+    display: grid;
+    padding: 20px;
+  }
+  
+  .movie-thumbnail {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .movie-thumbnail img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .movie-detail {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: grid;
+    position: relative;
+    top: -100%;
+    opacity: 0;
+    transition: all 750ms;
+  }
+  
+  .movie:hover .movie-detail {
+    opacity: 1;
+  }
+  
+  .trailer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(225px, 275px));
+    grid-template-rows: 325px;
+    justify-content: center;
+  }
+
+  .form-wrapper {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.form-wrapper .btn {
+    background-color: darkblue;
+}
+
+label, input, select, textarea {
+  display: block;
+  padding: .5rem;
+  resize: none;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+.btn3 {
+  font-weight: 700;
+  letter-spacing: .2rem;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem 4rem;
+  border: .1rem solid black;
+}
+
+.btn3:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: whitesmoke;
+  border: .1rem solid white;
+}
+
+footer {
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+.about-banner {
+  text-align: center;
+  color: white;
+}
+
+.about-us {
+  color: white;
+}
+
+.about-us-wrapper {
+  text-align: center;
+  padding: 15px;
+  display: grid;
+  gap: 15px;
+}
+
+.about-us-wrapper h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.founder-image {
+  padding: 15px;
+  display: block;
+  justify-content: center;
+}
